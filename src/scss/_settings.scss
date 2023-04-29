@@ -106,3 +106,89 @@ a {
 .page--ios .dis-scroll {
   position: relative;
 }
+
+// Базовы для проекта
+
+.main__title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-ebony);
+
+  span {
+    color: var(--color-orange);
+  }
+
+  &--home {
+    color: var(--color-white);
+  }
+}
+
+.main__descr {
+  margin: 0;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--color-storm);
+
+  &--home {
+    margin-bottom: 61px;
+    color: var(--color-white);
+  }
+}
+
+.btn {
+  padding: 15px 39px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--color-white);
+
+  &--fill {
+    background-color: var(--color-orange);
+  }
+
+  &--stroke {
+    &-white {
+      border-color: var(--color-white);
+    }
+  }
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  color: var(--color-ebony);
+
+  &--center {
+    text-align: center;
+  }
+}
+
+.descr {
+  margin: 0;
+  margin-bottom: 60px;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--color-storm);
+
+  &--center {
+    text-align: center;
+  }
+}
+
+.section-offset {
+  padding-top: 120px;
+}
