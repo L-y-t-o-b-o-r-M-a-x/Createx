@@ -1,10 +1,15 @@
 :root {
   // base
   --font-family: "Ubuntu", sans-serif;
-  --content-width: 1260px;
+  --content-width: 1230px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
   // colors
-  --light-color: #fff;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray: #424551;
+  --color-storm: #787a80;
+  --color-ebony: #1e212c;
+  --color-orange: #ff5a30;
 }
