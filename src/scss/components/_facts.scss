@@ -1,0 +1,60 @@
+.facts {
+  padding: 80px 0;
+  padding-top: 180px;
+  padding-bottom: 200px;
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    max-width: 736px;
+    gap: 48px;
+  }
+}
+
+.facts-element {
+  &__circle {
+    --progress-stroke: #000;
+    --progress-bg-opacity: 0.3;
+
+    position: relative;
+    margin-bottom: 20px;
+    width: 148px;
+    height: 148px;
+
+    svg {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+
+    .progress {
+      stroke: var(--progress-stroke);
+      transform: rotate(-90deg) translateX(20px);
+      transform-origin: center;
+    }
+
+    .progress-bg {
+      stroke: var(--progress-stroke);
+      opacity: var(--progress-bg-opacity);
+    }
+
+    &--one-color {
+      --progress-stroke: #f89828;
+    }
+
+    &--two-color {
+      --progress-stroke: #f52f6e;
+    }
+
+    &--three-color {
+      --progress-stroke: #5a87fc;
+    }
+
+    &--four-color {
+      --progress-stroke: #03cea4;
+    }
+  }
+}
